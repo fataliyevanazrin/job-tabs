@@ -1,0 +1,86 @@
+.main {
+    display: flex;
+    margin: 4rem 1rem;
+}
+
+@font-face {
+    font-family: Arial;
+    src: url(./arial/ARIAL.ttf);
+    font-weight: 400;
+}
+.job-info {
+    width: 76%;
+}
+
+.job-title {
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 0 0 12px 0;
+}
+
+.job-company {
+    font-family: Roboto, sans-serif;
+    width: 83.27px;
+    height: 28px;
+    padding: 6px 13.27px 6px 12px;
+    border-radius: 4px;
+    background-color: #CBD5E1;
+}
+
+.job-dates {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #64748B;
+    margin: 15px 0 32px 0;
+}
+
+.div-duties {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.job-icon {
+    font-size: 16px;
+    color: #14B8A6;
+}
+
+.job-duties {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    width: 22%;
+}
+
+
+.job-btn {
+    background-color: transparent;
+    border: transparent;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 65.76px;
+}
+
+.active-btn {
+    color: #14B8A6;
+    border-left: 2px solid #14B8A6;
+
+}
