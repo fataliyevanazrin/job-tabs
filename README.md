@@ -1,4 +1,4 @@
-# Nazrin Job Tabs
+# Job Tabs
 
 This project is a web application built using React.js. It allows users to filter and view job details based on predefined categories using tabs. The app is hosted on [Netlify](https://nazrin-job-tabs.netlify.app/).
 
